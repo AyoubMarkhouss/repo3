@@ -1,0 +1,23 @@
+git clone https
+to add files : get add (file)
+to delete files : git reset head (file)
+git commit -m "message"
+to know the branch : git branch 
+get pull origin main 
+get push origin main 
+
+/////publickey////
+ssh-keygen -t rsa -b 4096 -C "ayoub.markhouss@gmail.com"
+
+
+///create folder//
+mkdir folder
+git init 
+to create file : type nul> file
+
+1/ go to folder when .git exist (if it doesnt exist create it with git init)
+2/git add index.html
+3/git commit -m "message"
+4/git remote add origin git@github.com:AyoubMarkhouss/repository.git
+if you want to update the URL of the existing remote origin : git remote set-url origin "new-remote-url" 
+5/git push -u origin master 
